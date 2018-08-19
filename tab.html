@@ -1,0 +1,54 @@
+<!do
+<?php
+include_once 'includes/db_connect.php';
+include_once 'includes/functions.php';
+sec_session_start();
+if (login_check($mysqli) == true) {
+$logged = 'in';
+} 
+else
+ {
+$logged = 'out';
+}
+$stmt = $mysqli->prepare("SELECT round FROM round WHERE id ='0'");
+$stmt->execute();
+$stmt->bind_result($round);
+$stmt->fetch();
+
+$con=mysqli_connect("helpinghand-mysqldbserver.mysql.database.azure.com","sec_user@helpinghand-mysqldbserver","12345","secure_login");
+// Check connection
+if (mysqli_connect_errno())
+{
+echo "Failed to connect to MySQL: " . mysqli_connect_error();
+}
+
+$teamname = filter_input(INPUT_POST, $_SESSION['teamname'], FILTER_SANITIZE_STRING);
+
+
+//$sql = msqli_query($con,"SELECT * FROM  members where teamname='[$teamname]');
+
+$result = mysqli_query($con,"SELECT * FROM members where name = '$teamname'");
+
+/*echo "<table border='1'>
+<tr>
+<th>Firstname</th>
+</tr>";
+
+while($row = mysqli_fetch_array(($result))
+{
+echo "<tr>";
+echo "<td>" . $row['teamname'] . "</td>";
+echo "</tr>";
+}
+echo "</table>";
+
+mysqli_close($con);*/
+<div style="padding-top: 2%;">
+                    <table class=" table table-striped" border="1" style="width: 90%;" align="center">
+                        
+                        <tr >
+                            <td class="table-dark">
+                                teamname
+                            </td>
+                         </tr>
+?>

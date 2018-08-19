@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)https://getbootstrap.com/docs/3.3/examples/navbar-fixed-top/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://getbootstrap.com/docs/3.3/favicon.ico">
+
+    
+
+    <!-- Bootstrap core CSS -->
+    <link href="./Fixed Top Navbar Example for Bootstrap_files/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./Fixed Top Navbar Example for Bootstrap_files/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./Fixed Top Navbar Example for Bootstrap_files/navbar-fixed-top.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./Fixed Top Navbar Example for Bootstrap_files/ie-emulation-modes-warning.js.download"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://getbootstrap.com/docs/3.3/examples/navbar-fixed-top/#">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="https://getbootstrap.com/docs/3.3/examples/navbar-fixed-top/#">Home</a></li>
+            <li><a href="https://getbootstrap.com/docs/3.3/examples/navbar-fixed-top/#about">About</a></li>
+            <li><a href="https://getbootstrap.com/docs/3.3/examples/navbar-fixed-top/#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="https://getbootstrap.com/docs/3.3/examples/navbar-fixed-top/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="https://getbootstrap.com/docs/3.3/examples/navbar-fixed-top/#">Action</a></li>
+                <li><a href="https://getbootstrap.com/docs/3.3/examples/navbar-fixed-top/#">Another action</a></li>
+                <li><a href="https://getbootstrap.com/docs/3.3/examples/navbar-fixed-top/#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="https://getbootstrap.com/docs/3.3/examples/navbar-fixed-top/#">Separated link</a></li>
+                <li><a href="https://getbootstrap.com/docs/3.3/examples/navbar-fixed-top/#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://getbootstrap.com/docs/3.3/examples/navbar/">Default</a></li>
+            <li><a href="https://getbootstrap.com/docs/3.3/examples/navbar-static-top/">Static top</a></li>
+            <li class="active"><a href="https://getbootstrap.com/docs/3.3/examples/navbar-fixed-top/">Fixed top <span class="sr-only">(current)</span></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+   
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./Fixed Top Navbar Example for Bootstrap_files/jquery.min.js.download"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./Fixed Top Navbar Example for Bootstrap_files/bootstrap.min.js.download"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./Fixed Top Navbar Example for Bootstrap_files/ie10-viewport-bug-workaround.js.download"></script>
+  
+
+</body></html>
